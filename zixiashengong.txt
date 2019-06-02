@@ -1,2 +1,14 @@
-欲练神功,必先自宫!
-自宫也无法练就神功!
+git在init(初始化工作区中)需要设置工作区签名,或者设置全局签名.
+工作区签名:当前工作区提交在本地库中的昵称和email地址!
+全局签名:所有没有设置签名的工作区可以共享使用.
+因为工作区签名比全局签名优先级别高,就近原则.
+
+mkdir xxx文件夹(项目目录)
+git init :初始化工作区.
+git config user.name name :设置工作区签名.name
+git config user.email email@qq.com :设置工作区签名.email
+全局(当前主机)工作区签名
+git config --global user.name name
+git config --global user.email email@qq.com 
+邮箱地址最好设置成GitHub上的注册邮箱,方便联络!
+

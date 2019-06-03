@@ -22,3 +22,15 @@ git config --global user.email email@qq.com
 下雨了，打雷了！
 
 hahahaha
+
+团队外push
+1.fork一份远程库
+2.clone到本地库
+3.push到远地库
+4.pull request
+5.审核，merge(合并)
+
+
+
+
+
